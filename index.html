@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📌 Idea to Roadmap Converter</title>
+
+    <!-- 🔤 Fonts & Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Patrick+Hand&family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <!-- 🔥 Firebase SDK + Firestore Setup -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+      import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyC3Omf59bnGKwaNm5Dy3QELnoPfeC7SvuM",
+        authDomain: "ideabank-ak-gdgc2025.firebaseapp.com",
+        projectId: "ideabank-ak-gdgc2025",
+        storageBucket: "ideabank-ak-gdgc2025.appspot.com",
+        messagingSenderId: "1082504843600",
+        appId: "1:1082504843600:web:33949322737ea6b83b5c55"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      window.db = getFirestore(app);
+    </script>
+  </head>  
+
+  <body>
+    <h2>📌 Idea to Roadmap Converter</h2>
+    <div class="ideabank-logo">IdeaBank</div>  
+
+    <!-- 🔤 Input Section (Centered) -->
+    <div class="input-section">
+      <input id="ideaInput" placeholder="Type your app idea here..." />
+      <button id="submitBtn">Generate Roadmap</button>
+    </div>
+
+    <div id="loading" style="display:none; margin-top:1rem; font-style:italic; color:#34A853;">
+      <span class="material-icons">autorenew</span> Generating roadmap...
+    </div>
+
+    <div id="output"></div>
+
+    <!-- 🧠 Roadmap History Panel -->
+    <div id="history" style="margin-top:2rem;">
+      <h3 style="font-size:1.2rem; color:#34A853;">📜 Roadmap History</h3>
+      <div id="historyList" style="line-height:1.5;"></div>
+    </div>
+
+    <!-- 🌟 Footer with Signature -->
+    <footer style="margin-top:2rem; font-size:0.9rem; color:#5f6368; text-align:center;">
+      <span class="material-icons" style="font-size:1rem; vertical-align:middle;">bolt</span>
+      Built with <strong>Gemini API</strong> and <strong>Firebase</strong>
+      <p class="footer-signature">Aashwika Khurana, GDGC 2025</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

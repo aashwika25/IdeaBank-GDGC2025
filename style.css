@@ -1,0 +1,174 @@
+/* 🌈 Google Notebook Base */
+body {
+  background: repeating-linear-gradient(#fefefe, #fefefe 24px, #e0e0e0 25px);
+  font-family: 'Roboto', sans-serif;
+  margin: 2rem;
+  color: #202124;
+}
+
+.ideabank-logo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.footer-signature {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  color: #5f6368;
+  margin-top: 4px;
+  text-align: center;
+}
+
+/* 📌 Title */
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 2.4rem;
+  color: #4285F4;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* 🧠 Input Section (Centered) */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+/* 🧠 Input Field */
+#ideaInput {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(60,64,67,0.15);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* 🚀 Button */
+#submitBtn {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #34A853;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(60,64,67,0.3);
+  transition: background-color 0.3s ease;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+#submitBtn:hover {
+  background-color: #0f9d58;
+}
+
+/* 🗂️ Output Card */
+#output {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(60,64,67,0.2);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1rem;
+  white-space: normal;
+  animation: slideFade 0.6s ease-in-out;
+}
+
+/* ✏️ Gemini Output Formatting */
+#output h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  color: #4285F4;
+  margin-bottom: 0.5rem;
+}
+
+#output strong.section-title {
+  display: block;
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  color: #4285F4;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #4285F4;
+}
+
+#output strong {
+  font-weight: 600;
+  color: #202124;
+}
+
+#output ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+  list-style-type: disc;
+}
+
+#output li {
+  margin-bottom: 0.4rem;
+}
+
+/* ⏳ Loading Message */
+#loading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  font-style: italic;
+  font-family: 'Caveat', cursive;
+  color: #0F9D58;
+  animation: pulse 1.5s infinite;
+  font-size: 1.1rem;
+}
+
+/* 🔄 Rotating Gemini Icon */
+.material-icons {
+  animation: rotate 1s linear infinite;
+  font-size: 1.2rem;
+}
+
+/* ✨ Pulse Animation */
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* 🧩 Slide-In Fade Animation */
+@keyframes slideFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🔄 Rotate Animation for Icon */
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
