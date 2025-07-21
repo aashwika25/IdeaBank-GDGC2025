@@ -118,5 +118,5 @@ This project is protected under a **custom license** crafted by the author.
 It is provided for educational and personal use only.  
 
 Commercial use, redistribution, or public deployment is **strictly prohibited** without prior written consent.  
-Please [view full license terms here](./LICENSE.txt) for details or contact the author directly for permission inquiries.
+Please [view full license terms here](./LICENSE) for details or contact the author directly for permission inquiries.
 
