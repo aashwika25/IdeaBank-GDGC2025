@@ -1,9 +1,9 @@
 # IdeaBank-GDGC2025
 AI-powered platform to capture, refine, and showcase ideas in real time.
 
-![Firebase Hosting](https://img.shields.io/badge/Firebase-Hosted-yellow?style=for-the-badge&logo=firebase)
-![Gemini API](https://img.shields.io/badge/Gemini-API-purple?style=for-the-badge&logo=google&logoColor=white)
-![Google IDX](https://img.shields.io/badge/Google-IDX-blue?style=for-the-badge&logo=googlechrome&logoColor=white)
+[![Firebase Hosting](https://img.shields.io/badge/Firebase-Hosted-yellow?style=for-the-badge&logo=firebase)](https://firebase.google.com/docs/hosting)
+[![Gemini API](https://img.shields.io/badge/Gemini-API-purple?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/ai/gemini)
+[![Google IDX](https://img.shields.io/badge/Google-IDX-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://idx.dev/)
 [![Live Demo](https://img.shields.io/badge/View-Demo-brightgreen?style=for-the-badge&logo=googlechrome)](https://ideabank-ak-gdgc2025.web.app/)
 
 ---
