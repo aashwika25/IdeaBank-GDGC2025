@@ -1,18 +1,30 @@
-Copyright (c) 2025 Aashwika Khurana
+Custom License for IdeaBank © 2025 Aashwika Khurana
 
-This software and its associated content are provided for educational and personal use only.
+This software, all related source code, visual assets, design components, documentation, and associated content ("Project") are the intellectual property of Aashwika Khurana. All rights reserved unless explicitly stated.
 
-Commercial use, redistribution, sublicensing, or monetization of any part of this project is strictly prohibited without prior written consent from the author.
+This Project is provided solely for:
+- Educational purposes
+- Personal learning and exploration
+- Academic demonstration or review (non-commercial)
 
-You may:
-- View, study, and use the code for personal learning
-- Share links to the original repository for reference
+Users may:
+- View, study, and locally run the code for personal understanding
+- Share links to the original public repository for reference, with credit to the author
+- Cite the project in portfolios, articles, or presentations, with clear attribution
 
-You may NOT:
-- Use this project or its components in any commercial product or service
-- Modify and redistribute the code for profit
-- Host or deploy this project publicly without permission
+Users may NOT:
+- Use this Project or its components in any commercial product, platform, service, or tool
+- Modify, adapt, or redistribute the Project or any part of it for profit
+- Host or publicly deploy the Project (or its derivatives) without written permission
+- Clone or reproduce any ideas, planned features, or described **future enhancements** for reuse, adaptation, or inclusion in other tools, platforms, or applications — regardless of whether the implementation is identical
 
-Violation of these terms may result in legal action.
+This includes but is not limited to:
+- The concept of personalized login dashboards tied to idea history
+- The “Social Wall” for public idea discovery and collaborator matchmaking
+- AI-powered roadmap suggestions combined with built-in team collaboration features
+
+Unauthorized copying or reuse of these ideas — whether technically implemented or conceptually adapted — is strictly prohibited.
+
+Violation of these terms may result in legal action or takedown requests.
 
 For licensing inquiries or permission requests, please contact: khuranaashwika@gmail.com
