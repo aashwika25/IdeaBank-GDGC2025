@@ -10,7 +10,11 @@ AI-powered platform to capture, refine, and showcase ideas in real time.
 
 ## 🚀 Overview
 
-**IdeaBank** is a responsive web application built for the **GDG Campus Organizer Program**. It empowers users to capture, refine, and showcase ideas with real-time AI assistance. The platform integrates **Gemini API**, **Firebase Firestore**, and **Google IDX** to deliver seamless user experience and intelligent content generation.
+**IdeaBank** is a responsive web application built to empower users to capture, refine, and showcase ideas with real-time AI assistance. Designed for the GDG Campus Organizer Program, it integrates **Gemini API**, **Firebase Firestore**, and **Google IDX** to deliver a seamless user experience and intelligent content generation.
+
+The platform addresses a common challenge faced by **students**: having **countless ideas** but feeling stuck on **where to begin**, **how to structure them**, or **how long the process will take**.  
+
+**IdeaBank** bridges that gap by offering **AI-powered prompts**, **instant feedback**, and a **structured workspace** — helping users turn **raw thoughts** into **actionable, well-documented concepts** in **seconds**.
 
 ---
 
@@ -74,15 +78,15 @@ firebase deploy
 ```
 ---
 
+## 🙌 Acknowledgments
+
+- GDG Campus Organizer Program  
+- Google Developer Tools  
+- Firebase & Gemini API teams
+---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ---
-
-## 🙌 Acknowledgments
-
-- GDG Campus Organizer Program  
-- Google Developer Tools  
-- Firebase & Gemini API teams  
