@@ -77,6 +77,33 @@ firebase init
 firebase deploy
 ```
 ---
+## 🚧 Future Enhancements
+
+**IdeaBank isn’t just about ideas—it’s about connecting creators.**  
+Planned features to build community and boost collaboration include:
+
+### 🔐 Personalized Login System
+- Secure user authentication with unique IDs and passwords
+- Individual dashboard showing idea history and saved content
+- Roadmap tracking and AI-generated development timelines
+
+### 🧩 Collaboration Preferences
+- Onboarding toggle for “Interested in collaboration?”
+- Collaboration mode can be managed anytime via settings
+
+### 🧱 Social Wall (for Collaborative Discovery)
+- Shared dashboard showing ideas marked public for collaboration
+- Visible only to users with collaboration toggle enabled
+- Idea cards show roadmap roles available and project summaries
+
+### 💬 Built-In Chatbox for Collab Requests
+- Clicking a public idea opens direct message box with creator
+- Auto-generated intro message:
+  > "Hey! I'm interested to collaborate on your project *'Project Name'* as a *'Role'*."
+- Enables smooth, contextual conversations between creators
+
+#### These features aim to transform IdeaBank into a **collaborative hub for student innovation**, making ideas not just visible — but executable through teamwork and guided planning.
+---
 
 ## 🙌 Acknowledgments
 
